@@ -1,0 +1,105 @@
+/* Main page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.849);
+  font-family: 'Kufam', sans-serif;
+  font-size: 19px;
+  color: rgba(246, 245, 245, 0.95);
+  margin: 0;
+}
+
+#home {
+  text-align: center;
+}
+
+#me {
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+#name {
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+#role {
+  margin-bottom: 0;
+}
+
+#linkedin {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(253, 255, 255);
+  transition: transform 350ms, opacity 400ms;
+}
+
+#linkedin:hover {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+#summary {
+  padding: 0 90px;
+}
+
+.menu-links {
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+  font-family: Roboto;
+}
+
+.anchor {
+  text-decoration: none;
+  color: antiquewhite;
+  transition: transform 1s, color 1s;
+}
+
+.anchor:hover {
+  transform: translateY(5px);
+  color: rgba(250, 235, 215, 0.473);
+}
+
+
+/* Education & Work experience pages below */
+
+.content {
+  width: 70%;
+  margin: auto;
+  font-family: Roboto;
+}
+
+.content img {
+  width: 60px;
+  float: left;
+}
+
+.content p {
+  padding-left: 100px;
+}
+
+.content li {
+  padding-bottom: 30px;
+}
+
+.back-home {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+
+/* Footer */
+
+.footer {
+  font-size: 0.5rem;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
